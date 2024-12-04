@@ -54,6 +54,7 @@ git config --global user.email "ydh1178@naver.com"
    
 or  git add #{파일경로}		// 원하는 파일만 push 대상으로 지정
     ex) git add file/temp.py
+         git add --force file/temp.py  // git status로 뜨지 않는 파일을 강제로 push 대상으로 지정
 
     git commit -m "#{커밋메세지}" 	// 커밋메세지 설정(리비전 메세지 설정)
 
