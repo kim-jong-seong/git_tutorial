@@ -69,3 +69,6 @@ or  git add #{파일경로}		// 원하는 파일만 push 대상으로 지정
 
 + 전체 내용 출처
   : https://lee-jaewon.github.io/github/github(1)/
+
++ git status 시 한글파일이 숫자(ex) \355\205\214.zip)로 나오는 경우
+  : "git config --global core.quotepath false" 입력
